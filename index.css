@@ -1,0 +1,263 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 3%;
+  text-align: left;
+}
+
+.heading-buttons {
+  padding: 5% 0 0 12%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 12%;
+}
+
+/* Sections */
+.colored-section {
+  background: #212531;
+  background: linear-gradient(to right bottom, #ff847c 60%, #fecea8 60%);
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #ff847c;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin: 0 1%;
+  padding: 1% 10% 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Flip This */
+.flip-container {
+  background: transparent;
+  display: block;
+}
+
+.flip-this {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-container:hover .flip-this {
+  transition: 0.9s;
+  transform: rotateX(360deg);
+}
+
+/* Projects Button */
+/* .projects-button {
+  margin: 5% 0 0 0;
+  padding: 1% 5%;
+  font-size: 1.5rem;
+  font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+} */
+/* Title Section */
+.row {
+  margin: 0;
+}
+
+#title .container-fluid {
+  padding: 0 0 5%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+}
+
+/* About Me */
+.skill-row {
+  width: 70%;
+  margin: 5% auto 12%;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.design-img {
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* Features Section */
+#features .container-fluid {
+  padding: 3% 0;
+}
+
+#features {
+  padding: 0 8%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 0 6%;
+}
+
+.text-features {
+  font-family: 'Montserrat';
+  color: #8f8f8f;
+}
+
+.icons-features {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.icons-features:hover {
+  color: #333;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* About Me Section */
+#aboutme {
+  background-color: #ff847c;
+  color: #fff;
+}
+
+/* Testimonial */
+#testimonials {
+  background-color: #ff847c;
+  color: #fff;
+  height: 540px;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #ff847c;
+  color: #fff;
+  padding-bottom: 10%;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #ff847c;
+  color: #fff;
+  padding: 0 0 1% 0;
+}
+
+.footer-icon {
+  margin: 10px;
+  color: #fff;
+}
+
+.footer-icon:hover {
+  color: #ff4c69;
+}
+
+/*****************
+MEDIA QUERIES
+*****************/
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 60%;
+    position: static;
+    right: 20%;
+  }
+
+  .big-heading {
+    text-align: center;
+  }
+
+  .heading-buttons {
+    padding: 5% 5%;
+  }
+
+  .feature-box {
+    padding: 7% 8%;
+    position: relative;
+  }
+
+  .skill-row {
+    width: 100%;
+    margin: 5% auto 20%;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .code-img {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .design-img {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+}
