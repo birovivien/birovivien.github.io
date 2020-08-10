@@ -1,1 +1,1 @@
-https://birovivien.github.io/portfolio/
+https://birovivien.github.io/
